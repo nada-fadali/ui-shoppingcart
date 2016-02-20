@@ -110,7 +110,7 @@ a.btn-primary{
 
 
 /*
- * main style
+ * slide style
  *
  */
 .slider {
@@ -140,3 +140,79 @@ a.btn-primary{
   padding: 25px 32px;
   text-transform: uppercase;
 }
+
+/*
+ * promotions style
+ *
+ */
+.promotions > div{
+  float: left;
+  width: 295px;
+  height: 295px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 120px 40px;
+}
+
+.promotions > div h2{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+.promotions > div p{
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+.promotions .tall-cell {
+  height: 590px;
+  padding-top: 270px;
+}
+
+.promotions .float-right{
+  float:right;
+}
+
+.promotions > div blockquote.tweet-quote{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Georgia', serif;
+  text-transform: none;
+}
+
+.promotions > div .tweet-quote:before{
+  font-family: 'FontAwesome';
+  content: '- \f099 -';
+  display: block;
+  margin: -20px 0 5px 0;
+  font-size: 23px;
+}
+
+blockquote + p{
+  text-transform: none;
+}
+
+.arrow-before::before{
+  font-family: 'FontAwesome';
+  content: '\f177';
+  display: block;
+  margin: -20px 0 5px 0;
+}
+
+
+.bg-gray-60{ background-color: #606060; }
+.bg-gray-c2{ background-color: #c2c2c2; }
+.bg-gray-ca{ background-color: #cacaca; }
+.bg-gray-d0{ background-color: #d0d0d0; }
+.bg-gray-d7{ background-color: #d7d7d7; }
+.bg-gray-db{ background-color: #dbdbdb; }
+.bg-gray-bb{ background-color: #bbbbbb; }
+.bg-gray-d2{ background-color: #d2d2d2; }
+
