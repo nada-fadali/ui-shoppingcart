@@ -263,3 +263,36 @@ blockquote + p{
   position: relative;
   left: -5px;
 }
+
+/*
+ * aside style
+ *
+ */
+aside{
+  position: relative;
+}
+
+aside a{
+  display:inline-block;
+  width: 50px;
+  background-color: #e4e4e4;
+  text-align: center;
+  line-height: 120px;
+  position: absolute;
+  top: 0;
+}
+
+aside a.left-arrow-slider{
+  left:0;
+}
+
+aside a.right-arrow-slider{
+  right: 0;
+}
+
+aside div{
+  display: inline-block;
+  width: 100%;
+  height: 120px;
+  background-color: #bbb;
+}
