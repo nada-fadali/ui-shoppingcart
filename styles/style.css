@@ -23,6 +23,10 @@ body{
   background-color: #fff;
 }
 
+/*
+ * header style
+ */
+
 header{
   border-bottom: 1px solid #e5e5e5;
 }
@@ -104,3 +108,35 @@ a.btn-primary{
   display: inherit;
 }
 
+
+/*
+ * main style
+ *
+ */
+.slider {
+  text-align: center;
+  padding: 150px 0 140px 0;
+}
+.slider h1{
+  font-size: 72px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0 40px 0;
+  letter-spacing: 10px;
+}
+.slider p{
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  color: #606060;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin: 0 0 70px 0;
+}
+
+.slider a.btn-primary{
+  text-decoration: none;
+  text-align: center;
+  padding: 25px 32px;
+  text-transform: uppercase;
+}
