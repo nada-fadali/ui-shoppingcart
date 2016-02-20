@@ -1,0 +1,106 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+body{
+  font-family: 'Lato', san-serif;
+  background-color: #fff;
+}
+
+header{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.shop-links h1{
+  font-size:14px;
+  width: 42px;
+  text-align: center;
+  color: #fff;
+  background-color: #222;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0;
+}
+
+.shop-links ul,
+.user-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:inline-block;
+}
+
+.shop-links li,
+.user-links li{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.shop-links,
+.user-links{
+  display: inline-block;
+  line-height: 42px;
+  padding: 38px 0;
+}
+
+.shop-links a,
+.user-links a{
+  font-size: 14px;
+  color: #222;
+  text-decoration: none;
+}
+
+
+.shop-links{
+  float: left;
+}
+
+.user-links{
+  float: right;
+}
+
+.user-links-cart::before{
+  font-family: 'FontAwesome';
+  content: "\f290";
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+.user-links-login::before{
+  font-family: 'FontAwesome';
+  content: "\f007";
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+a.btn-primary{
+  font-size: 14px;
+  border: 1px solid #959595;
+  color: #757575;
+}
+
+.user-links .btn-primary{
+  padding: 12px;
+  margin-left: 50px;
+}
+
+.btn-primary .fa{
+  display: inherit;
+}
+
