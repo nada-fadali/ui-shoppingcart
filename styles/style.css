@@ -117,21 +117,30 @@ a.btn-primary{
   text-align: center;
   padding: 150px 0 140px 0;
 }
-.slider h1{
-  font-size: 72px;
+.slider h1,
+.newsletter h3{
   text-transform: uppercase;
   font-weight: normal;
   padding: 0;
-  margin: 0 0 40px 0;
-  letter-spacing: 10px;
+  margin: 0;
 }
-.slider p{
-  font-size: 24px;
+
+.slider h1{
+  font-size: 72px;
+  letter-spacing: 10px;
+  margin: 0 0 40px 0;
+}
+
+.slider p,
+.newsletter p{
   font-family: 'Georgia', serif;
   color: #606060;
   font-style: italic;
   letter-spacing: 1px;
+}
+.slider p{
   margin: 0 0 70px 0;
+  font-size: 24px;
 }
 
 .slider a.btn-primary{
@@ -216,3 +225,41 @@ blockquote + p{
 .bg-gray-bb{ background-color: #bbbbbb; }
 .bg-gray-d2{ background-color: #d2d2d2; }
 
+/*
+ * newsletter style
+ *
+ */
+.newsletter{
+  text-align: center;
+  padding: 145px 0 130px 0;
+}
+
+.newsletter h3{
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.newsletter p{
+  font-size: 18px;
+}
+
+.newsletter input{
+  width: 480px;
+  line-height: 55px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.newsletter button[type="submit"]{
+  background-color: #f68236;
+  color: #fff;
+  font-size: 14px;
+  line-height: 61px;
+  border: none;
+  box-shadow: none;
+  width: 95px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: -5px;
+}
