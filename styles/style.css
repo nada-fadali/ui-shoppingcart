@@ -1,7 +1,11 @@
 @font-face {
   font-family: 'Lato';
-  src: url('fonts/Lato/Lato-Regular.ttf');
+  src: url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+      url('../fonts/Lato/Lato-Regular.ttf')  format('truetype'),
+      url('../fonts/Lato/Lato-Regular.svg#Lato-Regular') format('svg');
 }
+
 *{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
