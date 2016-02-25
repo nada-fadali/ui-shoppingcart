@@ -43,11 +43,14 @@ header{
   font-size:14px;
   width: 42px;
   text-align: center;
-  color: #fff;
   background-color: #222;
-  font-weight: normal;
   display: inline-block;
   margin: 0;
+}
+
+.shop-links h1>a{
+  color: #fff;
+  font-weight: normal;
 }
 
 .shop-links ul,
