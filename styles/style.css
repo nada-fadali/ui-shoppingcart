@@ -316,9 +316,14 @@ footer{
   padding-bottom: 70px;
 }
 
-.footer-links > div{
+.footer-links  div{
   float: left;
   width: 295px;
+}
+
+.footer-links div+div{
+  border-left: 1px solid #eaeaea;
+  padding-left: 20px;
 }
 
 .footer-links h1{
@@ -343,6 +348,10 @@ footer{
   font-size: 12px;
   text-decoration: none;
   color: #303030;
+}
+
+.footer-links a:hover{
+  text-decoration: underline;
 }
 
 .footer-links-copyrights p{
