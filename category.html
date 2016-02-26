@@ -26,10 +26,13 @@
     </div>
     <div class="user-links">
       <ul>
-        <li class="user-links-login"><a href="#">Log in</a></li>
-        <li class="user-links-cart"><a href="#">Basket (0)</a></li>
+        <li class="user-links-login user-loggedin">Hi, Michal (<a href="#">logout</a>)</li>
+        <li class="user-links-cart"><a href="#">Basket (4)</a></li>
       </ul>
-      <a href="#" title="Search Shop" class="btn-primary"><span class="fa fa-search"></span></a>
+      <form action="" method="post" class="search-shop-form">
+        <input type="text" placeholder="Search something...">
+        <button type="submit"><span class="fa fa-search"></span></button>
+      </form>
     </div>
   </header>
 </body>
