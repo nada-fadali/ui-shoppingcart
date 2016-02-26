@@ -241,3 +241,32 @@ footer{
   padding: 10px 0;
   margin-right: 15px;
 }
+
+/*
+ * breadcrumbs style
+ *
+ */
+
+.breadcrumbs {
+  margin: 25px 0 60px 0;
+}
+
+.breadcrumbs ul{
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs li{
+  display: inline-block;
+}
+
+.breadcrumbs a{
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #606060;
+}
+
+.breadcrumbs li+li::before{
+  content: "/";
+  margin: 10px;
+}

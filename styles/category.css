@@ -1,5 +1,4 @@
-.category-preview {
-  text-align: center;
+.category-preview+.category-preview {
   margin: 150px 0;
 }
 
@@ -9,10 +8,12 @@
   letter-spacing: 1px;
   font-weight: normal;
   margin: 0;
+  text-align: center;
 }
 
 .category-preview p{
   margin-bottom: 65px;
+  text-align: center;
 }
 
 .category-preview p a{
