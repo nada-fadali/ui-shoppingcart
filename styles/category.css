@@ -40,13 +40,13 @@
   text-align: center;
 }
 
-.product-cards h1,
+.product-cards h2,
 .product-cards p{
   font-size: 14px;
   margin: 0;
 }
 
-.product-cards h1{
+.product-cards h2{
   font-weight: bold;
   margin: 30px 0 5px 0;
 }
