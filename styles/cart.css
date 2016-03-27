@@ -129,3 +129,79 @@
   text-align: center;
   line-height: 170px;
 }
+
+.shippment{
+  width:100%;
+  border: 1px solid #e5e5e5;
+  padding-top: 100px;
+}
+
+.shippment__header{
+  text-align: center;
+}
+
+.shippment__form{
+  width: 585px;
+  margin: 100px auto;
+}
+
+.control-group{
+  margin-bottom: 50px;
+}
+
+.control-group-nested{
+  display: flex;
+}
+
+.control-group-nested .control-group{
+  display: inline-block;
+  width: 100%;
+}
+
+.control-group-nested .control-group + .control-group{
+  margin-left: 20px;
+}
+
+.control-group label{
+  text-transform: uppercase;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  color: #606060;
+  margin-bottom: 15px;
+}
+
+.control-group label span{
+  text-transform: none;
+}
+
+.control-group select{
+  border-radius: 0;
+  height: 44px;
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #c2c2c2;
+  font-size: 12px;
+}
+
+.control-group input{
+  width: 100%;
+  font-size: 12px;
+  border: 1px solid #c2c2c2;
+  height: 44px;
+}
+
+.control-group input[type="checkbox"]{
+    border-radius: 0;
+    border: 1px solid #c2c2c2;
+    vertical-align: bottom;
+    position: relative;
+    width: 30px;
+    top: -1;
+    height: 30px;
+    top: 7px;
+  }
+
+  .control-group:last-child{
+    text-align: center;
+  }
