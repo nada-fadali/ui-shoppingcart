@@ -33,15 +33,89 @@
     </div>
   </header>
   <main>
-    <div class="shoppingbag">
-      <div class="shoppingbag__header">
+    <div class="shopping-bag">
+      <div class="shopping-bag__header">
         <h1 class="section-title">your shopping bag</h1>
         <p class="section-caption">Items reserved for limited time only</p>
       </div>
-      <div class="shoppingbag__content">
-        <table>
+      <form class="shopping-bag__form">
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th>product</th>
+              <th>Description</th>
+              <th>color</th>
+              <th>size</th>
+              <th>qty</th>
+              <th>amount</th>
+              <th>delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cart-product-image"><img src="images/product-image.jpg" alt="Product Image"></td>
+              <td class="cart-description">
+                <h2>floral plimsoll</h2>
+                <p>Ref. 2514/302</p>
+              </td>
+              <td class="cart-color">One Color</td>
+              <td class="cart-size">39</td>
+              <td class="cart-qty">
+                <!--validate using js-->
+                <input type="text" name="qty" id="qty" value="1">
+                <div class="qty-control clearfix">
+                  <button type="submit"><img src="images/+.png" alt="add"></button>
+                  <button type="submit"><img src="images/-.png" alt="remove"></button>
+                </div>
+              </td>
+              <td class="cart-amount">€99,95</td>
+              <td class="cart-delete"><button type="submit"><span class="fa fa-times"></span></button></td>
+            </tr>
+            <tr>
+              <td class="cart-product-image"><img src="images/product-image.jpg" alt="Product Image"></td>
+              <td class="cart-description">
+                <h2>coated 5 pocket trousers</h2>
+                <p>Ref. 8246/044</p>
+              </td>
+              <td class="cart-color">One Color</td>
+              <td class="cart-size">M</td>
+              <td class="cart-qty">
+                <!--validate using js-->
+                <input type="text" name="qty" id="qty" value="1">
+                <div class="qty-control clearfix">
+                  <button type="submit"><img src="images/+.png" alt="add"></button>
+                  <button type="submit"><img src="images/-.png" alt="remove"></button>
+                </div>
+              </td>
+              <td class="cart-amount">€169.00</td>
+              <td class="cart-delete"><button type="submit"><span class="fa fa-times"></span></button></td>
+            </tr>
+            <tr>
+              <td class="cart-product-image"><img src="images/product-image.jpg" alt="Product Image"></td>
+              <td class="cart-description">
+                <h2>oversized studio blouse</h2>
+                <p>Ref. 2401/657</p>
+              </td>
+              <td class="cart-color">Black</td>
+              <td class="cart-size">S</td>
+              <td class="cart-qty">
+                <!--validate using js-->
+                <input type="text" name="qty" id="qty" value="2">
+                <div class="qty-control clearfix">
+                  <button type="submit"><img src="images/+.png" alt="add"></button>
+                  <button type="submit"><img src="images/-.png" alt="remove"></button>
+                </div>
+              </td>
+              <td class="cart-amount">€299.00</td>
+              <td class="cart-delete"><button type="submit"><span class="fa fa-times"></span></button></td>
+            </tr>
+            <tr class="cart-total">
+              <td colspan="5">Subtotal:</td>
+              <td colspan="2">€567,95</td>
+            </tr>
+          </tbody>
         </table>
-      </div>
+      </form>
     </div>
   </main>
   <footer>
