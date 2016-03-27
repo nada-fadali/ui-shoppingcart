@@ -112,6 +112,10 @@
   margin-top:5px;
 }
 
+.cart-table tr{
+  border: none;
+}
+
 .cart-total td:first-child{
   font-weight: bold;
   text-align: right;
@@ -119,4 +123,9 @@
 
 .cart-total td:last-child{
   color: #f68236;
+}
+
+.divider{
+  text-align: center;
+  line-height: 170px;
 }
