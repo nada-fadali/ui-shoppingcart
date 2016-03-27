@@ -270,3 +270,25 @@ footer{
   content: "/";
   margin: 10px;
 }
+
+/*
+ * section title and caption style
+ *
+ */
+.section-title{
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.section-caption{
+  font-family: 'Georgia', serif;
+  color: #606060;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+

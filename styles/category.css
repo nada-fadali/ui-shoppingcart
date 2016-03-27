@@ -2,12 +2,7 @@
   margin: 150px 0;
 }
 
-.category-preview h1{
-  text-transform: uppercase;
-  font-size: 36px;
-  letter-spacing: 1px;
-  font-weight: normal;
-  margin: 0;
+.category-preview{
   text-align: center;
 }
 
