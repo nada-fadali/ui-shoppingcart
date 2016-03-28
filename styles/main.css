@@ -121,12 +121,6 @@ blockquote + p{
 }
 
 .newsletter button[type="submit"]{
-  background-color: #f68236;
-  color: #fff;
-  font-size: 14px;
-  line-height: 61px;
-  border: none;
-  box-shadow: none;
   width: 95px;
   padding: 0;
   margin: 0;

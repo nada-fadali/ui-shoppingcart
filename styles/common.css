@@ -292,3 +292,15 @@ footer{
   font-size: 18px;
 }
 
+.text-center{
+  text-align: center;
+}
+
+.btn-submit{
+  background-color: #f68236;
+  color: #fff;
+  font-size: 14px;
+  line-height: 61px;
+  border: none;
+  box-shadow: none;
+}

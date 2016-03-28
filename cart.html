@@ -38,7 +38,7 @@
         <h1 class="section-title">your shopping bag</h1>
         <p class="section-caption">Items reserved for limited time only</p>
       </div>
-      <form class="shopping-bag__form">
+      <div class="shopping-bag__content">
         <table class="cart-table">
           <thead>
             <tr>
@@ -64,12 +64,12 @@
                 <!--validate using js-->
                 <input type="text" name="qty" id="qty" value="1">
                 <div class="qty-control clearfix">
-                  <button type="submit"><img src="images/+.png" alt="add"></button>
-                  <button type="submit"><img src="images/-.png" alt="remove"></button>
+                  <a href="#"><img src="images/+.png" alt="add"></a>
+                  <a href="#"><img src="images/-.png" alt="remove"></a>
                 </div>
               </td>
               <td class="cart-amount">€99,95</td>
-              <td class="cart-delete"><button type="submit"><span class="fa fa-times"></span></button></td>
+              <td class="cart-delete"><a type="submit"><span class="fa fa-times"></span></a></td>
             </tr>
             <tr>
               <td class="cart-product-image"><img src="images/product-image.jpg" alt="Product Image"></td>
@@ -83,12 +83,12 @@
                 <!--validate using js-->
                 <input type="text" name="qty" id="qty" value="1">
                 <div class="qty-control clearfix">
-                  <button type="submit"><img src="images/+.png" alt="add"></button>
-                  <button type="submit"><img src="images/-.png" alt="remove"></button>
+                  <a href="#"><img src="images/+.png" alt="add"></a>
+                  <a href="#"><img src="images/-.png" alt="remove"></a>
                 </div>
               </td>
               <td class="cart-amount">€169.00</td>
-              <td class="cart-delete"><button type="submit"><span class="fa fa-times"></span></button></td>
+              <td class="cart-delete"><a type="submit"><span class="fa fa-times"></span></a></td>
             </tr>
             <tr>
               <td class="cart-product-image"><img src="images/product-image.jpg" alt="Product Image"></td>
@@ -102,12 +102,12 @@
                 <!--validate using js-->
                 <input type="text" name="qty" id="qty" value="2">
                 <div class="qty-control clearfix">
-                  <button type="submit"><img src="images/+.png" alt="add"></button>
-                  <button type="submit"><img src="images/-.png" alt="remove"></button>
+                  <a href="#"><img src="images/+.png" alt="add"></a>
+                  <a href="#"><img src="images/-.png" alt="remove"></a>
                 </div>
               </td>
               <td class="cart-amount">€299.00</td>
-              <td class="cart-delete"><button type="submit"><span class="fa fa-times"></span></button></td>
+              <td class="cart-delete"><a type="submit"><span class="fa fa-times"></span></a></td>
             </tr>
             <tr class="cart-total">
               <td colspan="5">Subtotal:</td>
@@ -115,7 +115,7 @@
             </tr>
           </tbody>
         </table>
-      </form>
+      </div>
     </div>
     <div class="divider">
       <img src="images/divider.png" alt="section divider">
@@ -125,7 +125,7 @@
         <h1 class="section-title">Shippment address</h1>
         <p class="section-caption">All fields are required</p>
       </div>
-      <form class="shippment__form">
+      <div class="shippment__content">
         <div class="control-group">
           <label for="">select delivery method</label>
           <select name="delivery_option" id="">
@@ -170,15 +170,46 @@
             <input type="email" name="" id="" value="" required>
           </div>
         </div>
-        <div class="control-group">
+        <div class="control-group text-center">
           <label>
             <input type="checkbox" name="" id="" value="">Use this address for Billing
           </label>
         </div>
-      </form>
+      </div>
     </div>
     <div class="divider">
       <img src="images/divider.png" alt="section divider">
+    </div>
+    <div class="payment">
+      <div class="payment__header">
+        <h1 class="section-title">payment options</h1>
+        <p class="section-caption">All fields are required</p>
+      </div>
+      <div class="payment__content">
+        <table>
+          <tbody>
+            <tr>
+              <td>Subtotal:</td>
+              <td>€567,95</td>
+            </tr>
+            <tr>
+              <td>Shipping:</td>
+              <td>€15,00</td>
+            </tr>
+            <tr>
+              <td>Total:</td>
+              <td>€582,95</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="control-group">
+          <label for="">select payment method</label>
+          <select name="" id="">
+            <option value="">Credit Card</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-submit">order now</button>
+      </div>
     </div>
   </main>
   <footer>
