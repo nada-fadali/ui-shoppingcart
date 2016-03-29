@@ -101,9 +101,8 @@
   text-align: center;
 }
 
-.cart-delete button{
-  border: none;
-  background: none;
+.cart-delete a{
+  color: inherit;
 }
 
 .cart-total{
