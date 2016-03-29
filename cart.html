@@ -33,7 +33,7 @@
     </div>
   </header>
   <main>
-  <form action="" method="post">
+  <form action="" id="checkout-form" method="post">
        <div class="shopping-bag">
       <div class="shopping-bag__header">
         <h1 class="section-title">your shopping bag</h1>
@@ -118,9 +118,7 @@
         </table>
       </div>
     </div>
-    <div class="divider">
-      <img src="images/divider.png" alt="section divider">
-    </div>
+    <div class="divider"></div>
     <div class="shippment">
       <div class="shippment__header">
         <h1 class="section-title">Shippment address</h1>
@@ -178,9 +176,7 @@
         </div>
       </div>
     </div>
-    <div class="divider">
-      <img src="images/divider.png" alt="section divider">
-    </div>
+    <div class="divider"></div>
     <div class="payment">
       <div class="payment__header">
         <h1 class="section-title">payment options</h1>
@@ -206,7 +202,7 @@
         <div class="control-group">
           <label for="">select payment method</label>
           <select name="" id="">
-            <option value="">Credit Card</option>
+            <option value="credit_card">Credit Card</option>
           </select>
         </div>
         <button type="submit" class="btn-submit">order now</button>
@@ -256,5 +252,7 @@
 
     </nav>
   </footer>
+  <script src="scripts/jquery-2.2.2.min.js"></script>
+  <script src="scripts/cart.js"></script>
 </body>
 </html>

@@ -127,7 +127,9 @@ tr.cart-total{
 
 .divider{
   text-align: center;
-  line-height: 170px;
+    background: url(../images/divider.png) no-repeat center;
+    height: 170px;
+    width: 100%;
 }
 
 .shippment{
@@ -194,6 +196,7 @@ tr.cart-total{
   font-size: 12px;
   border: 1px solid #c2c2c2;
   height: 44px;
+  padding-left: 10px;
 }
 
 .control-group input[type="checkbox"]{
