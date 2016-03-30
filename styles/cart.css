@@ -189,6 +189,10 @@ tr.cart-total{
   background: url('../images/arrow_down.png') 97% 50% no-repeat;
 }
 
+select[name='payment_method']{
+  background:  url('../images/arrow_down.png') 97% 50% no-repeat, url('../images/credit_cards.png') 93% 50% no-repeat;
+}
+
 .control-group input{
   width: 100%;
   font-size: 12px;
