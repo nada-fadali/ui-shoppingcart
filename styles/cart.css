@@ -186,8 +186,7 @@ tr.cart-total{
   font-size: 12px;
   -webkit-appearance: none;
   padding: 0 10px;
-  background: url('../images/arrow_down.png') no-repeat right;
-  background-position-x: 97%;
+  background: url('../images/arrow_down.png') 97% 50% no-repeat;
 }
 
 .control-group input{

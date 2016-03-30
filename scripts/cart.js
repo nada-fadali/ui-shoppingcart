@@ -50,3 +50,22 @@ $("#phone").on("change",function(){
     console.log("phone is invalid error");
   }
 });
+
+$(function(){
+  $select = $(".control-group select[name='payment_method']");
+  if($select.val() == "credit_card"){
+     $select.css("background", "url('./images/arrow_down.png') 97% 50% no-repeat, url('./images/credit_cards.png') 93% 50% no-repeat");
+  }
+});
+
+
+$(".control-group select[name='payment_method']").on("change", function(){
+  var selected = $(this).val();
+
+  if (selected == "credit_card"){
+    $(this).css("background", "url('./images/arrow_down.png') 97% 50% no-repeat, url('./images/credit_cards.png') 93% 50% no-repeat");
+  }
+  else if (selected == "cod"){
+     $(this).css("background", "url('./images/arrow_down.png') 97% 50% no-repeat");
+  }
+});
